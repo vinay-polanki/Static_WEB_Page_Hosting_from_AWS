@@ -21,10 +21,19 @@ This project showcases a simple static website for colors boutique, which is bui
 2. Content Planning: a PowerPoint outline was created to plan the website structure, content organization and page flow.
 
 3. AWS S3 Setup: A S3 bucket was created with the unique name; all the website files are stored in the bucket including HTML AND CSS along with any images if available (In my case I haven't Uploaded any images but I left the space for the image in both home.html and prodcuts.html pages)
+   ![Bucket Creation](Images/Bucket_creation.png)
 
 4. Public Access Configuration: The S3 bucket was made public by assigning IPv4 address for temporary access.
 
+![Bucket in AWS S3](Images/Bucket_in_S3_2.png).
+
+![Bucket](Images/bucket_3.png).
+
+![Items in Bucket](Images/Items_Buckets.png).
+
 5. Website Deployment: All the websites files were uploaded to the S3 bucket for public access.
+
+   ![Mens Products Page](Images/Mens_Products_Page.png).
 
 6. Public Access removal: Once I hosted the page and deployed; I took screen shots of each step and web pages. Once, I deleted all the content in my S3 bucket (mycolorsboutiquewebsite.S3 Bucket) and the bucket. It because I use AWS free tier account.
 

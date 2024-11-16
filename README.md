@@ -1,9 +1,45 @@
 # Static_WEB_Page_Hosting_from_AWS_S3
 
-In this project, I built a simple website for a store called Colours Boutique. I had made a similar website before using Wix.com during my Master’s degree in the UK, which was focused on project management. Now, I wanted to improve my skills in Python and business analysis, so I decided to create and host this website on AWS S3.
+## Project Overview
 
-To start, I used templates from a CSS templates website to design the look of the website. I made two main pages for Colours Boutique. Before I began coding, I created an outline using PowerPoint to get an idea of how the website would look. This helped me plan the layout and content for each page.
+This project showcases a simple static website for colors boutique, which is built and hosted on Amazon Web Services (AWS) S3.  It demonstrate my ability to:
 
-Next, I set up an AWS S3 bucket, which is like a special folder in the cloud where you can store files. I uploaded all the files I needed for the website, like HTML, CSS, and Python files, into this bucket along with the images needed for that website. I made this folder public by assigning an IPv4 address to it. This means that anyone with the address can see the website. However, I didn’t give the website a proper domain name, like “www.coloursboutique.com.”
+- Design user interface using design templates.
+- Code HTML and CSS for webpages structure and styling.
+- Utilizing cloud services like AWS S3 for website hosting.
 
-The main goal of this project was to learn how to use AWS S3 as a simple server to host a website. By doing this, I gained practical experience in setting up and managing a static website using cloud services.
+## Project Goals:
+
+- Gain  practical experience in building and deploying a static website.
+- enhance skills in HTML and CSS.
+- Learn AWS S3 functionalities for website hosting.
+
+## Development Process:
+
+1. Website Design: Design templates were used to create the visual layout for the colors boutique website.
+
+2. Content Planning: a PowerPoint outline was created to plan the website structure, content organization and page flow.
+
+3. AWS S3 Setup: A S3 bucket was created with the unique name; all the website files are stored in the bucket including HTML AND CSS along with any images if available (In my case I haven't Uploaded any images but I left the space for the image in both home.html and prodcuts.html pages)
+
+4. Public Access Configuration: The S3 bucket was made public by assigning IPv4 address for temporary access.
+
+5. Website Deployment: All the websites files were uploaded to the S3 bucket for public access.
+
+6. Public Access removal: Once I hosted the page and deployed; I took screen shots of each step and web pages. Once, I deleted all the content in my S3 bucket (mycolorsboutiquewebsite.S3 Bucket) and the bucket. It because I use AWS free tier account.
+
+## Project Outcomes:
+
+- ** Functional static website for colors Boutique hosted on AWS S3 ** (http://mycolorsboutiquewebsite.s3-website.us-east-2.amazonaws.com/home.html#).
+- Improved skills in HTML and CSS for web designing.
+- Gained experience with cloud-based website using AWS S3.
+
+## Future Considerations:
+
+- implement additional functionalities using Python (Beautiful Soup).
+- Integrate a custom domain name for the website using Route 53 in AWS when complete extra pages for the website is fully implemented.
+- Improve website security and performance.
+
+
+**Please note**: 
+All images for the website was in images folder.
